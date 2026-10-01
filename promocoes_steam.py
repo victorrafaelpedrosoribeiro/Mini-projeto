@@ -109,7 +109,7 @@ def main():
                 links_ja_vistos.add(promo["link"])
                 todas.append(promo)
 
-        time.sleep(1)  # pausa curta para não sobrecarregar o servidor
+        time.sleep(1) 
 
     mostrar_promocoes(todas)
 
